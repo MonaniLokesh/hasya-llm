@@ -1,0 +1,30 @@
+# hasya-llm dependencies
+# Python 3.11+
+
+# API
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Config and validation
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# YouTube and audio
+yt-dlp>=2024.1.0
+
+# Transcription (free local option)
+faster-whisper>=1.0.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# Vector DB
+supabase>=2.0.0
+
+# LLM
+groq>=0.4.0
+
+# HTTP client
+httpx>=0.26.0
